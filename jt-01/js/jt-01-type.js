@@ -13,4 +13,10 @@ console.log(n)
 
 // console.log(2 ** 3) 指数运算符 **
 // console.log(String(null))
+/* eslint-disable */
 
+var temp = ''
+if (true) {
+  tmp = 'abc'; // ReferenceError
+  let tmp;
+}
